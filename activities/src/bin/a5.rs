@@ -9,4 +9,13 @@
 // * Print the variable within the loop statement
 // * Use break to exit the loop
 
-fn main() {}
+fn main() {
+    let mut iter: i32 = 5;
+    loop {
+        println!("{:?}", iter);
+        iter -= 1;
+        if iter == 0 {
+            break;
+        }
+    }
+}
