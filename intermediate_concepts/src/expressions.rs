@@ -2,7 +2,8 @@
 * Rust is an expression based language
 * -- Most of the things are evaluated and return some value
 * Expression values coalesce to a single point
-* -- Can be used for nesting logic
+* -- Can be used for nesting logic; e.g. if else, match
+* -- Best not ot use more than a few levels of nesting
 */
 
 // fn main() {
