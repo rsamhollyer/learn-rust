@@ -26,7 +26,7 @@ fn check_if_big(my_num: i32) -> bool {
 }
 
 fn main() {
-    let my_num = 10;
+    let my_num = 10423423;
 
     let is_big = check_if_big(my_num);
 
